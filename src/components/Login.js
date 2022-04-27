@@ -15,7 +15,7 @@ const Login = () => {
     <>
       <div className='w-full pt-24 mx-auto px-6 text-center'>
         <h1 className='text-primary mt-8 md:mt-0 font-bold text-3xl'>
-          Welcome to E-Gift
+          Welcome to E-Gift.
         </h1>
         <p className='text-inactive mt-3'>Enter details to login</p>
             <form method='POST' action="" className='flex flex-col max-w-[600px] w-full mx-auto my-5'>
