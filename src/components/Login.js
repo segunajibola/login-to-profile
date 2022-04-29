@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
 
+    // const initialValues = {} or set {} in formValues
     const initialValues = {username: "", email: "", password: ""}
     const [formValues, setFormValues] = useState(initialValues)
     const [formErrors, setFormErrors] = useState({})
